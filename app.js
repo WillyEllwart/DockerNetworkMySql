@@ -74,7 +74,7 @@ app.get('/add', (req, res) => {
   connection.query(
     `INSERT INTO test (name) VALUES ('${new Date().toLocaleString()}')`
   );
-  res.send("Added");
+  res.send("Added!!!");
 });
 
 app.get('/all', (req, res) => {

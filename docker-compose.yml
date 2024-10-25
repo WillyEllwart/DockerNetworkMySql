@@ -24,6 +24,9 @@ services:
     build: ./
     image: node-backend
     container_name: mein-backend
+    volumes:
+      - /C:/Users/wille/DockerNetworkMySQL:/app
+      - /app/node_modules
     networks:
       - beispiel-netzwerk
     ports:

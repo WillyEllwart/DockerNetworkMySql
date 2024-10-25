@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 5012
 
-CMD ["node", "app.js"]
+CMD ["npx", "nodemon", "app.js"]
